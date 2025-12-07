@@ -19,7 +19,6 @@ import "./App.css";
 const LIBRARIES = ["places", "marker"];
 function App() {
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-  console.log("google", apiKey);
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
